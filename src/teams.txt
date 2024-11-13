@@ -1,0 +1,56 @@
+fantasy_content.teams.team[0].matchups.matchup[0].week
+fantasy_content.teams.team[0].matchups.matchup[0].teams.team[0].name
+fantasy_content.teams.team[0].matchups.matchup[0].teams.team[0].team_points.total
+fantasy_content.teams.team[0].matchups.matchup[0].teams.team[1].name
+fantasy_content.teams.team[0].matchups.matchup[0].teams.team[1].team_points.total
+
+team_key	:	449.l.109294.t.3
+team_id	:	3
+name	:	Zevi Levis
+url	:	https://football.fantasysports.yahoo.com/f1/109294/3
+
+team_key	:	449.l.109294.t.1
+team_id	:	1
+name	:	Talia maHOMA
+url	:	https://football.fantasysports.yahoo.com/f1/109294/1
+
+team_key	:	449.l.109294.t.4
+team_id	:	4
+name	:	Mondo loves Kamara Harris
+url	:	https://football.fantasysports.yahoo.com/f1/109294/4
+
+team_key	:	449.l.109294.t.5
+team_id	:	5
+name	:	Rabbi KUPPchik
+url	:	https://football.fantasysports.yahoo.com/f1/109294/5
+
+
+team_key	:	449.l.109294.t.10
+team_id	:	10
+name	:	Randy Loves Learning Rashee
+url	:	https://football.fantasysports.yahoo.com/f1/109294/10
+
+team_key	:	449.l.109294.t.2
+team_id	:	2
+name	:	Dan Wex Loves Adams Gelnick
+url	:	https://football.fantasysports.yahoo.com/f1/109294/2
+
+team_key	:	449.l.109294.t.7
+team_id	:	7
+name	:	Randy Loves the Met(s)Calf
+url	:	https://football.fantasysports.yahoo.com/f1/109294/7
+
+team_key	:	449.l.109294.t.8
+team_id	:	8
+name	:	Randy Loves Etienne Ass
+url	:	https://football.fantasysports.yahoo.com/f1/109294/8
+
+team_key	:	449.l.109294.t.9
+team_id	:	9
+name	:	STROUD to be an American
+url	:	https://football.fantasysports.yahoo.com/f1/109294/9
+
+team_key	:	449.l.109294.t.6
+team_id	:	6
+name	:	Harrison Garber
+url	:	https://football.fantasysports.yahoo.com/f1/109294/6
