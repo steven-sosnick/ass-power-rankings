@@ -11,7 +11,7 @@ const SortableTable = () => {
         const fetchData = async () => {
             setLoading(true);
             try {
-                const response = await fetch('https://4f3ytt78l9.execute-api.us-east-1.amazonaws.com/power-rankings');
+                const response = await fetch('http://localhost:3000/power-rankings');
                 const result = await response.json();
 
                 // Sort the data by "total" in descending order initially
@@ -58,24 +58,24 @@ const SortableTable = () => {
 
     return (
         <div>
-            <h2>Sortable Table</h2>
+            <h2>Power Rankings</h2>
             {loading ? (
                 <p>Loading data...</p>
             ) : (
                 <table>
                     <thead>
                         <tr>
-                            <th onClick={() => sortData('teamName')}>
-                                Team name{getSortIcon('teamName')}
+                            <th onClick={() => sortData('displayName')}>
+                                Team name{getSortIcon('displayName')}
                             </th>
-                            <th onClick={() => sortData('wins')}>
-                                Wins{getSortIcon('wins')}
+                            <th onClick={() => sortData('winPoints')}>
+                                Wins{getSortIcon('winPoints')}
                             </th>
-                            <th onClick={() => sortData('points')}>
-                                Points{getSortIcon('points')}
+                            <th onClick={() => sortData('pointsPoints')}>
+                                Points{getSortIcon('pointsPoints')}
                             </th>
-                            <th onClick={() => sortData('h2h')}>
-                                H2H{getSortIcon('h2h')}
+                            <th onClick={() => sortData('h2hPoints')}>
+                                H2H{getSortIcon('h2hPoints')}
                             </th>
                             <th onClick={() => sortData('total')}>
                                 Total{getSortIcon('total')}
@@ -85,10 +85,10 @@ const SortableTable = () => {
                     <tbody>
                         {data.map((item) => (
                             <tr key={item.id}>
-                                <td>{item.teamName}</td>
-                                <td>{item.wins}</td>
-                                <td>{item.points}</td>
-                                <td>{item.h2h}</td>
+                                <td>{item.displayName}</td>
+                                <td>{item.winPoints} ({item.rawWins})</td>
+                                <td>{item.pointsPoints} ({item.rawPoints})</td>
+                                <td>{item.h2hPoints} ({item.rawH2H})</td>
                                 <td>{item.total}</td>
                             </tr>
                         ))}
